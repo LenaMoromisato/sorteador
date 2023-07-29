@@ -1,3 +1,17 @@
+# Curso React: testando os seus componentes (Alura e Programa Desenvolve da Boticário)
+
+> Status do projeto: em andamento
+
+Conteúdo do curso:
+
+* Rodamos o script que executa os testes implementados;
+* Encontramos elementos na tela usando a @testing-library/react;
+* Analisamos a saída o script de testes;
+* Diferenciamos os tipos testes existentes;
+* Desenvolvemos um componente utilizando TDD.
+
+-----
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
