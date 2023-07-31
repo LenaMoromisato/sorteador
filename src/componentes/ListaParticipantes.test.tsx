@@ -23,7 +23,7 @@ describe('uma lista vazia de participantes', () => {
         )
     
         const itens = screen.queryAllByRole('listitem')
-        expect(itens).toHaveLenght(0)
+        expect(itens).toHaveLength(0)
     })
 })
 
@@ -42,6 +42,6 @@ describe('uma lista preenchida de participantes', () => {
         )
     
         const itens = screen.queryAllByRole('listitem')
-        expect(itens).toHaveLenght(participantes.length)
+        expect(itens).toHaveLength(participantes.length)
     })
 })
