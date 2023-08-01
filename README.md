@@ -13,7 +13,11 @@ Conteúdo do curso:
 * Criamos um hook que encapsula o acesso ao estado global de participantes;
 * Utilizamos o useRef para interagir com o DOM e definir foco a um input;
 * Executamos código assíncrono com o setTimeout;
-* Lidamos com temporizadores nos testes com Jest.
+* Lidamos com temporizadores nos testes com Jest;
+* Preparamos o mock de um hook customizado;
+* Validamos se métodos são chamados pelo componente testado;
+* Lidamos com a navegação do react router dom durante os testes;
+* Realizamos testes de snapshot.
 
 -----
 
