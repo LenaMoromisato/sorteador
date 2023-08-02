@@ -1,6 +1,6 @@
 # Curso React: testando os seus componentes (Alura e Programa Desenvolve da Boticário)
 
-> Status do projeto: em andamento
+> Status do projeto: concluído
 
 Conteúdo do curso:
 
@@ -21,7 +21,10 @@ Conteúdo do curso:
 * Buscamos elementos <option> pela role;
 * Testamos se o fluxo da aplicação está sendo executado como o esperado;
 * Refatoramos código para facilitar a escrita de testes;
-* Escrevemos html acessível utilizando o conceito de roles.
+* Escrevemos html acessível utilizando o conceito de roles;
+* Subimos o projeto para o github;
+* Configuramos a publicação na Vercel;
+* Rodamos os testes para não publicar versões com testes falhando.
 
 -----
 
