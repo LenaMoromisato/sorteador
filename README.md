@@ -17,7 +17,11 @@ Conteúdo do curso:
 * Preparamos o mock de um hook customizado;
 * Validamos se métodos são chamados pelo componente testado;
 * Lidamos com a navegação do react router dom durante os testes;
-* Realizamos testes de snapshot.
+* Realizamos testes de snapshot;
+* Buscamos elementos <option> pela role;
+* Testamos se o fluxo da aplicação está sendo executado como o esperado;
+* Refatoramos código para facilitar a escrita de testes;
+* Escrevemos html acessível utilizando o conceito de roles.
 
 -----
 
