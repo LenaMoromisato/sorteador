@@ -43,7 +43,7 @@ describe('na pagina de sorteio', () => {
         )
 
         const opcoes = screen.queryAllByRole('option')
-        expect(opcoes).toHaveLength(participantes.length)
+        expect(opcoes).toHaveLength(participantes.length + 1)
     })
 
     test('o amigo secreto é exibido quando solicitado', () => {
@@ -56,7 +56,9 @@ describe('na pagina de sorteio', () => {
         const select = screen.getByPlaceholderText('Selecione o seu nome')
 
         fireEvent.change(select, {
-            value: participantes[0]
+            target: {
+                value: participantes[0]
+            }
         })
 
         const botao = screen.getByRole('button')
